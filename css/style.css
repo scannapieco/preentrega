@@ -110,9 +110,11 @@ a{
 
     
 .horizontal{
-    width: 100%;
-    border: radius 15px;
-    float: right;
+    display: flex;
+   padding-right: 30px;
+   margin-left: 50px;
+   margin-top: 50px;
+   height: 250px;
 
 }   
    
