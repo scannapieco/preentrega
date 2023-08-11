@@ -1,0 +1,50 @@
+.mision{
+    @mixin mobile{
+        
+    }
+    width: 75vw;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+    .balcon{
+        margin: 50px;
+        width: 320px;
+        height: 320px;
+        justify-content: space-around;
+        display: flex;
+     }
+
+ }
+ .posicion{
+    @mixin mobile{
+        
+        
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .texto{
+        @mixin mobile{
+        
+        }
+        margin-left: 50px;
+    }
+    
+ }
+ .posiciondos{
+    @mixin mobile{
+        flex-direction: column;
+        
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .texto{
+        margin-left: 50px;
+    }
+    
+ }

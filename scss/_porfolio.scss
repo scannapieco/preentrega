@@ -1,0 +1,54 @@
+.imgporfolio{
+    @mixin mobile{
+        flex-direction: column;
+        
+    }
+    left: 50%;
+    right: 150px;
+    display: flex;
+    justify-content: center;
+
+    .imgporfolio{
+        @mixin mobile{
+        
+        }
+        flex-direction:column ;
+
+    }
+
+        .casablanca{
+            @mixin mobile{
+                flex-direction: column;
+        
+            }
+            width: 320px;
+            height: 320px;
+           padding: 40px;
+
+           
+            .casablanca{
+                @mixin mobile{
+                    flex-direction: column;
+        
+                }
+                width: 320px;
+                height: 320px;
+               padding: 40px;
+            }
+         }
+
+    }
+
+    .casanegra{
+        @mixin mobile{
+            flex-direction: column;
+        
+        }
+        width: 320px;
+        height: 320px;
+        padding: 40px;
+    }
+   
+        
+     
+ 

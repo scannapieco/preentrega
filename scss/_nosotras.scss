@@ -1,0 +1,29 @@
+.arquitectas{
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+        
+        .vertical{
+            display: flex;
+            padding-right: 30px;
+            margin-left: 50px;
+            margin-top: 50px;
+            height: 250px;
+            
+         }
+         .horizontal{
+            display: flex;
+           padding-right: 30px;
+           margin-left: 50px;
+           margin-top: 50px;
+           height: 250px;
+        
+        }   
+           
+        
+    }
+    

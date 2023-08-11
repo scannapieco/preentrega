@@ -1,0 +1,34 @@
+.indexmain{
+    display: contents;
+    padding: 5px;
+    margin: 1000px;
+    .indexmain{
+        flex-direction:column ;
+        .video{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .container{
+                flex-direction: column;
+                .videoindex{
+                    width: 800px;
+                    height: 350px;
+                    display: flexbox;
+                    justify-content: center;
+                                       
+                    
+                 }
+                
+                 
+                
+            }
+        }
+
+    }
+
+}
+.videocenter{
+    display: flex;
+        justify-content: center;
+        
+    }

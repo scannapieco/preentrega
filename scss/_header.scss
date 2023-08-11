@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+     background-color: rgb(190, 102, 29);
+     @mixin mobile {
+
+     }
+     nav{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+       
+
+        ul{
+    
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            background-color: black;
+            text-align: center;
+            align-items: center;
+            
+             justify-content:space-between;
+            }
+            li{
+                width: 100px ;
+                
+            text-align: center;
+         }
+         a{
+            text-decoration: none;
+                display: block;
+                color: white;  
+                }
+     
+        }
+    }
+    
+
+    
