@@ -1,8 +1,10 @@
 .imgporfolio{
+    flex-wrap: wrap;
     @mixin mobile{
-        flex-direction: column;
+        
         
     }
+    
     left: 50%;
     right: 150px;
     display: flex;
@@ -12,7 +14,7 @@
         @mixin mobile{
         
         }
-        flex-direction:column ;
+        flex-wrap: wrap ;
 
     }
 
@@ -41,7 +43,7 @@
 
     .casanegra{
         @mixin mobile{
-            flex-direction: column;
+            
         
         }
         width: 320px;

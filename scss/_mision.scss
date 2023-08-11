@@ -1,7 +1,5 @@
-.mision{
-    @mixin mobile{
+.mision {    
         
-    }
     width: 75vw;
     margin: 30px;
     display: flex;
@@ -9,42 +7,39 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    margin-left: 100px;
+    
+    
+    
+    .posicion{  
+        
+         display: flex;
+        justify-content: center;
+        align-items: center;
+       
 
     .balcon{
+        
         margin: 50px;
         width: 320px;
         height: 320px;
         justify-content: space-around;
         display: flex;
+        .texto{
+            
+            display: flex;
+            flex-direction: column;
+             
+         }
      }
 
  }
- .posicion{
-    @mixin mobile{
+ 
+    
+    
+             
         
-        
-    }
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .texto{
-        @mixin mobile{
-        
-        }
-        margin-left: 50px;
     }
     
- }
- .posiciondos{
-    @mixin mobile{
-        flex-direction: column;
-        
-    }
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .texto{
-        margin-left: 50px;
-    }
-    
- }
+ 
+ 

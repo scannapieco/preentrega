@@ -85,14 +85,16 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.arquitectas .vertical {
+
+.vertical {
   display: flex;
   padding-right: 30px;
   margin-left: 50px;
   margin-top: 50px;
   height: 250px;
 }
-.arquitectas .horizontal {
+
+.horizontal {
   display: flex;
   padding-right: 30px;
   margin-left: 50px;
@@ -108,41 +110,34 @@ footer {
   justify-content: center;
   align-items: center;
   justify-content: space-around;
+  margin-left: 100px;
 }
-.mision .balcon {
+.mision .posicion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mision .posicion .balcon {
   margin: 50px;
   width: 320px;
   height: 320px;
   justify-content: space-around;
   display: flex;
 }
-
-.posicion {
+.mision .posicion .balcon .texto {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.posicion .texto {
-  margin-left: 50px;
-}
-
-.posiciondos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.posiciondos .texto {
-  margin-left: 50px;
+  flex-direction: column;
 }
 
 .imgporfolio {
+  flex-wrap: wrap;
   left: 50%;
   right: 150px;
   display: flex;
   justify-content: center;
 }
 .imgporfolio .imgporfolio {
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 .imgporfolio .casablanca {
   width: 320px;
